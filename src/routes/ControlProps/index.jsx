@@ -18,7 +18,7 @@ function CompoundComponent() {
 
   return (
     <div>
-      <Helmet title='Compound Component' />
+      <Helmet title='Control Props' />
       <Form
         onSubmit={onSubmit}
         email={email}
@@ -26,7 +26,7 @@ function CompoundComponent() {
         setEmail={setEmail}
         setPassword={setPassword}
       >
-        <Form.Title title='CompounedForm' />
+        <Form.Title title='Control Props' />
         <Form.Description text='Fill the form, click the button, wait 3 seconds for the promise to resolve, and 💥' />
         <Form.Description text='This pattern is almost the same as Compound Component, but here you can set the functionality and states from the outside' />
         <Form.Input type='email' />

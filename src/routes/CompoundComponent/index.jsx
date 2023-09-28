@@ -15,7 +15,7 @@ function CompoundComponent() {
     <div>
       <Helmet title='Compound Component' />
       <Form onSubmit={onSubmit}>
-        <Form.Title title='CompounedForm' />
+        <Form.Title title='Compound Component' />
         <Form.Description text='Fill the form, click the button, wait 3 seconds for the promise to resolve, and 💥' />
         <Form.Input type='email' />
         <Form.Input type='password' />
