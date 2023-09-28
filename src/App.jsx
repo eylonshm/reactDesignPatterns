@@ -1,6 +1,6 @@
 import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import { Home, CompoundComponent, ControlProps } from './routes'
+import { Home, CompoundComponent, ControlProps, CustomHook } from './routes'
 import { DefaultMessage } from './componets'
 
 const outletRoutes = [
@@ -18,6 +18,11 @@ const outletRoutes = [
     path: '/controlProps',
     element: <ControlProps />,
     title: 'Control Props',
+  },
+  {
+    path: '/customHook',
+    element: <CustomHook />,
+    title: 'Custom Hook',
   },
 ]
 
