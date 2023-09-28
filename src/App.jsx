@@ -1,7 +1,7 @@
 import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Home, CompoundComponent, ControlProps } from './routes'
-import DefaultMessage from './componets'
+import { DefaultMessage } from './componets'
 
 const outletRoutes = [
   {
