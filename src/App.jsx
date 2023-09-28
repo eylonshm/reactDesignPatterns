@@ -1,12 +1,12 @@
 import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import { Home, CompoundComponent, ControlProps } from './routes'
-import HomeMessage from './componets/HomeMessage'
+import DefaultMessage from './componets/DefaultMessage'
 
 const outletRoutes = [
   {
     path: '/',
-    element: <HomeMessage />,
+    element: <DefaultMessage />,
     title: 'Home',
   },
   {
