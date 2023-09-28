@@ -10,7 +10,7 @@ const outletRoutes = [
     title: 'Home',
   },
   {
-    path: '/CompoundComponent',
+    path: '/compoundComponent',
     element: <CompoundComponent />,
     title: 'Compound Component',
   },
