@@ -1,4 +1,5 @@
 import { CompoundComponent as Form } from '../../componets'
+import { Helmet } from 'react-helmet'
 
 function CompoundComponent() {
   const onSubmit = async (email, password) => {
@@ -12,6 +13,7 @@ function CompoundComponent() {
   }
   return (
     <div>
+      <Helmet title='Compound Component' />
       <Form onSubmit={onSubmit}>
         <Form.Title title='CompounedForm' />
         <Form.Description text='Fill the form, click the button, wait 3 seconds for the promise to resolve, and 💥' />
