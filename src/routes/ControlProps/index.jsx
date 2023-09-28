@@ -28,7 +28,7 @@ function CompoundComponent() {
       >
         <Form.Title title='CompounedForm' />
         <Form.Description text='Fill the form, click the button, wait 3 seconds for the promise to resolve, and 💥' />
-        <Form.Description text='This pattern is almost the same like Compound Component, but here you can set the functionality and states from the outside' />
+        <Form.Description text='This pattern is almost the same as Compound Component, but here you can set the functionality and states from the outside' />
         <Form.Input type='email' />
         <Form.Input type='password' />
         <Form.Submit text='Fill Form' />
