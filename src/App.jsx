@@ -1,6 +1,12 @@
 import './App.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import { Home, CompoundComponent, ControlProps, CustomHook } from './routes'
+import {
+  Home,
+  CompoundComponent,
+  ControlProps,
+  CustomHook,
+  PropsGetters,
+} from './routes'
 import { DefaultMessage } from './componets'
 
 const outletRoutes = [
@@ -23,6 +29,11 @@ const outletRoutes = [
     path: '/customHook',
     element: <CustomHook />,
     title: 'Custom Hook',
+  },
+  {
+    path: '/propsGetters',
+    element: <PropsGetters />,
+    title: 'Props Getters',
   },
 ]
 
