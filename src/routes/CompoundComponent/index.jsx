@@ -1,4 +1,4 @@
-import Form from '../../componets/CompoundComponent'
+import { CompoundComponent as Form } from '../../componets'
 
 function CompoundComponent() {
   const onSubmit = async (email, password) => {
