@@ -6,6 +6,7 @@ import {
   ControlProps,
   CustomHook,
   PropsGetters,
+  RenderProps,
 } from './routes'
 import { DefaultMessage } from './componets'
 
@@ -34,6 +35,11 @@ const outletRoutes = [
     path: '/propsGetters',
     element: <PropsGetters />,
     title: 'Props Getters',
+  },
+  {
+    path: '/renderProps',
+    element: <RenderProps />,
+    title: 'Render Props',
   },
 ]
 

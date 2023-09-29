@@ -7,3 +7,4 @@ export {
   default as PropsGetters,
   useForm as usePropGettersForm,
 } from './PropsGetters'
+export { default as RenderProps } from './RenderProps'
